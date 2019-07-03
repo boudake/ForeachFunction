@@ -45,7 +45,7 @@ public class FileNameInSpark {
 
                 }, true).mapToPair(x -> new Tuple2<>(x._1, x._2) );
 
-        /*Now print the records*/
-        fileNameAndRecordsRDD.foreach(t -> System.out.println("File Name:" + t._1 + "##Record is:" + t._2));
+    
+        fileNameAndRecordsRDD.foreach(t -> System.out.println("File Name:" + t._1 + data:" + t._2));
     }
 }
