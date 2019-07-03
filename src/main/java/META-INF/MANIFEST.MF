@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Collect_List-Class: hbaseTest.hbaseTest
+
